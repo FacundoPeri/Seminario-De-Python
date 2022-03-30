@@ -1,2 +1,4 @@
-cuadrados = [num**2 for num in range(10) if num % 2 == 0]
-print(cuadrados)
+lista = [[1,2]] * 3
+print(lista)
+lista[0][0] = "cambio"
+print(lista)
