@@ -6,8 +6,8 @@ def imprimo(*args):
         print(f"{args[i]} es de tipo {type(args[i])}")
 
 num = 4
-str = "locura"
-list = ["nashe",3]
+str = "prueba"
+list = ["prueba2",3]
 tupl = (1,2)
 
 imprimo(num,str,list,tupl)
